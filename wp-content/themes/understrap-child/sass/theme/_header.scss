@@ -1,0 +1,21 @@
+.wrapper-navbar {
+    background: $primary-color;
+    text-transform: uppercase;
+}
+
+.nav {
+    flex-direction: column;
+    a {
+        color: $navigation-text-color;
+
+        &:hover {
+            color: $secondary-color;
+        }
+    }
+
+    .active {
+        a {
+            color: $secondary-color;
+        }
+    }
+}

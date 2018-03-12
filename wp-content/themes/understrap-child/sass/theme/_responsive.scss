@@ -1,0 +1,210 @@
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .contact-us {
+    .contact-us-content {
+      .address {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .pagination {
+    .page-numbers {
+      font-size: 1.2rem;
+    }
+  }
+
+  .posts-links {
+
+    a {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+
+  .nav {
+    flex-direction: row;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .contact-us {
+    .contact-us-content {
+      .address {
+        font-size: 0.85rem;
+      }
+    }
+  }
+
+  .pagination {
+    .page-numbers {
+      font-size: 1.2rem;
+    }
+  }
+
+  .posts-links {
+
+    a {
+      font-size: 1.3rem;
+    }
+  }
+
+  .offerings-list {
+
+    li {
+      .offering-description-wrapper {
+        padding-top: 3rem;
+      }
+
+      &:nth-child(2) {
+        .offering-description-wrapper {
+          padding-top: 4.5rem;
+        }
+      }
+
+      &:nth-child(3) {
+        .offering-description-wrapper {
+          padding-top: 4.2rem;
+        }
+      }
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .contact-us {
+    .contact-us-content {
+      .address {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .pagination {
+    .page-numbers {
+      font-size: 1.2rem;
+    }
+  }
+
+  .posts-links {
+
+    a {
+      font-size: 1.5rem;
+    }
+  }
+
+  .offerings-list {
+
+    li {
+      .offering-description-wrapper {
+        padding-top: 3rem;
+      }
+
+      &:nth-child(2) {
+        .offering-description-wrapper {
+          padding-top: 4.5rem;
+        }
+      }
+
+      &:nth-child(3) {
+        .offering-description-wrapper {
+          padding-top: 4.2rem;
+        }
+      }
+    }
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .contact-us {
+    .contact-us-content {
+      .address {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .article {
+    .article-header {
+      font-size: 1rem;
+    }
+
+    p {
+      font-size: 0.83rem;
+    }
+  }
+
+  .pagination {
+
+    .page-numbers {
+      font-size: 1.5rem;
+    }
+  }
+
+  .posts-links {
+
+    a {
+      font-size: 1.5rem;
+    }
+  }
+
+  .why-us-section {
+    .arrow-link {
+      font-size: 3rem;
+    }
+
+    h1 {
+      font-size: 3.75rem;
+    }
+
+    h2 {
+      font-size: 3rem;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-weight: 300;
+    }
+  }
+
+  .offerings-list {
+
+    li {
+      .offering-description-wrapper {
+        padding-top: 3rem;
+      }
+
+      &:nth-child(2) {
+        .offering-description-wrapper {
+          padding-top: 4.5rem;
+        }
+      }
+
+      &:nth-child(3) {
+        .offering-description-wrapper {
+          padding-top: 4.2rem;
+        }
+      }
+    }
+  }
+
+  .portfolio-menu {
+    .portfolio-menu-link {
+      font-size: 1.875rem;
+    }
+  }
+
+  .overlay-content {
+    font-size: 1.875rem;
+  }
+}
+
+

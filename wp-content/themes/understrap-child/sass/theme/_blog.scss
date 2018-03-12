@@ -1,0 +1,75 @@
+
+.article {
+
+  &:hover a {
+    color: $secondary-color;
+  }
+
+  &:hover .article-header a {
+    color: $secondary-color;
+  }
+
+  .image-wrapper {
+    position: relative;
+  }
+
+  .arrow-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: $post-text-color;
+    background-color: $navigation-text-color;
+    padding: 7px;
+    border: 1px solid rgba(0, 1, 1, 0.5);
+
+  }
+
+  .article-header {
+    padding: 10px 0 10px 5px ;
+
+    a {
+      color: $post-text-color;
+      text-decoration: none;
+    }
+  }
+  .article-description {
+    border: 1px solid rgba(0, 1, 1, 0.5);
+    border-top: none;
+    padding: 10px 0 10px 10px ;
+  }
+
+  .time-wrapper {
+    text-align: center;
+    border: 1px solid #000002;
+    border-top: none;
+
+    .post-date {
+      padding-left: 8px;
+    }
+  }
+}
+
+.pagination {
+
+  .page-numbers {
+    color: $navigation-text-color;
+    background-color: $secondary-color;
+    margin-right: 15px;
+    padding: 15px 20px;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    &:hover {
+      color: $post-text-color;
+      text-decoration: none;
+    }
+  }
+
+  .current {
+    color: $post-text-color;
+  }
+
+  .dots {
+    background-color: transparent;
+    color: $post-text-color;
+  }
+}

@@ -1,0 +1,25 @@
+body {
+  font-family: $main-font;
+  font-size: 1rem;
+}
+
+body, html {
+  overflow-x: hidden;
+}
+
+.wrapper {
+  padding-top: 30px;
+  padding-bottom: 0;
+}
+
+.banner {
+  background: linear-gradient(
+                  rgba(20,20,20, .8),
+                  rgba(20,20,20, .8)),
+  url("../img/title_section_bg.png") no-repeat center center;
+  background-size: cover;
+
+  .banner-header {
+    color: $navigation-text-color;
+  }
+}
